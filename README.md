@@ -1,44 +1,27 @@
 # WebGL Lighting Lab
 
-## Overview
+## Reflection Questions
 
-This lab introduces the fundamental concepts of lighting in computer graphics using WebGL. Students will explore how lighting calculations affect the appearance of a 3D object by modifying shaders and JavaScript code.
+What is ambient lighting?
+Ambient lighting is illumination in a space that comes from multiple directions to softly brighten the space
 
-The lab begins with a working rotating cube and guides students through a series of lighting experiments involving:
+What is diffuse lighting?
+Diffuse lighting is illumination that's scattered and filtered, causing a cloudly or foggy look
 
-- Ambient Lighting
-- Diffuse Lighting
-- Light Direction
-- Colored Lighting
-- Animated Lighting
+Why do we need normal vectors?
+Normal vectors are needed to determine the angle between the rays of light and the 3D object, which in this case, is a rotating cube
 
-Students will gain hands-on experience with shader programming and learn how modern graphics engines simulate light.
+What role does the dot product play in lighting calculations?
+Dot product play plays an important role in lighting calculations because it calculates the cosine of the angle between the normal surface and the light direction vector
 
----
+How does changing light direction affect a 3D object?
+By changing light direction, it affects the perception of lights and shadows on a 3D object
 
-## Learning Objectives
+How does changing light color affect realism?
+Changing light color can help change the mood of the scene as different colors affect different moods
 
-By the end of this lab, students will be able to:
+Which modification produced the most interesting result?
+I liked changing the cube to a disco with both darks and lights as it appeared unpredictable and the most satisfying to look at
 
-- Explain the purpose of lighting in 3D graphics.
-- Describe the difference between ambient and diffuse lighting.
-- Modify GLSL shaders.
-- Change light direction using JavaScript uniforms.
-- Create colored light sources.
-- Animate a light source around a 3D object.
-- Understand the role of surface normals in lighting calculations.
-
----
-
-## Project Structure
-
-```text
-WebGLLightingLab/
-│
-├── lighting.html
-├── lighting.js
-├── vertexShader.glsl
-├── fragmentShader.glsl
-│
-└── Common/
- 
+Why do game engines automate lighting calculations?
+Game engines automate lighting calculations to make it easier for developers to focus on different areas for the game instead of doing often redundant calculations on their own for simple lighting tricks
